@@ -33,3 +33,4 @@ plot(data$dateTime, data$Global_reactive_power, type='n', xlab="datetime",
      ylab="Global_reactive_power")
 lines(data$dateTime, data$Global_reactive_power)
 dev.off()
+
